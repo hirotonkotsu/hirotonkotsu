@@ -6,29 +6,54 @@ float: left;
 padding: 0px 15px}
 
 .header{
-  background-color: #33CCCC;
-  height:60px;}
+  background-color: #DEB887;
+  height:30px;}
 .header-logo{
   float: left;
-  font-size: 25px;
-  padding: 10px 20px ;}
+  font-size: 12px;
+  padding: 5px 10px ;}
 
-.header-list{
-  float: left;}
 
 .main{
-  color: #33CCCC;
-  height: 300px
-
+  color: #DEB887;
+height: 700px;
 }
+.copy-container h1{
+  font-size: 40px;
+}
+.copy-container h2{
+  font-size: 20px;
+}
+.copy-container span{
+  color: #FF4F50;
+}
+.contents-item{
+  float: left;
+  margin-right:40px;
+  padding: 50px;
+}
+.contact-form{
+  padding: 50px;
+}
+input,textarea{
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size:15px;
+  border:1px solid #black;
+  }
+  .contact-submit{
+    background-color: #D3D3D3;
+  }
 
 .footer{
-  background-color: #33CCCC;
-  height:60px;}
+  background-color: #DEB887;
+  height:30px;}
 .footer-logo{
   float: left;
-  font-size: 25px;
-  padding: 10px 20px ;}
+  font-size: 12px;
+  padding: 5px 20px ;}
 .footer-list{
   float: right;
   padding: 0px 20px;}
