@@ -23,6 +23,8 @@ margin:0 auto;
 }
 .copy-container h1{
   font-size: 40px;
+  width: 100px;
+
 }
 .copy-container h2{
   border-bottom: 1px solid #DEB887;
@@ -44,7 +46,7 @@ width: 100px;
   padding: 50px;
 }
 .contact-form{
-  padding: 50px;
+
   float: left;
   margin: 0 auto;
 
