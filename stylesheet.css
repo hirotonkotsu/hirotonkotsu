@@ -1,76 +1,66 @@
-body{  font-family:"Avenir Next";
-color: white;
+body{
+  margin: 0;
+  font-family: "Hiragino kaku Gothic ProN";
 }
 
-li{list-style: none;
-float: left;
-padding: 0px 15px}
 
 .header{
   background-color: #DEB887;
-  height:50px;
- margin: 0 auto;}
-.header-logo{
-  float: left;
-  font-size: 30px;
-  padding: 5px 10px ;}
+  font-size: 10px;
+  letter-spacing: 5px;
+}
 
-
-.main{
-  color: #DEB887;
-height: 2000px;
-margin:0 auto;
-}
-.copy-container h1{
-  font-size: 40px;
-  width: 100px;
-
-}
-.copy-container h2{
-  border-bottom: 1px solid #DEB887;
-  font-size: 20px;
-}
-.copy-container img{
-  width: 100px;
-
-}
-.copy-container span{
-  color: #FF4F50;
-}
-.contents img{
-width: 100px;
-}
-.contents-item{
-  float: left;
-  margin-right:40px;
-  padding: 50px;
-}
-.contact-form{
-
-  float: left;
+.container{
+  color: black;
+  padding: 0px;
   margin: 0 auto;
+  height: 1000px;
+  background: rgba(255,255,255,0.7);
+}
+.container span{
+  color: #DC143C;
+}
+
+.top-wrapper{
+  height: 500px;
+  padding: 0 auto;
+  background-image:url("https://user-images.githubusercontent.com/69071095/89307550-2f081800-d6ac-11ea-83fe-a59b218b391f.JPG");
+  color: white;
+  background-size: cover;
+  text-align: right;
 
 }
-input,textarea{
-  width: 200px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 10px;
-  font-size:15px;
-  border:1px solid #black;
-  }
-  .contact-submit{
-    background-color: #D3D3D3;
-  }
+.top-wrapper h1{
+  height: 150px;
+}
+.top-wrapper h2{
+  font-size: 30px;
+  letter-spacing: 6px;
+
+}
+.top-wrapper h3{
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+.top-wrapper p{
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.parent{
+  height: 250px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.child{
+  float: left;
+  width: 20%;
+  margin: 30px;
+}
+
 
 .footer{
   background-color: #DEB887;
-  height:50px;
- margin: 50px}
-.footer-logo{
-  float: left;
-  font-size: 30px;
-  padding: 5px 20px ;}
-.footer-list{
-  float: right;
-  padding: 0px 20px;}
+  font-size: 20px;
+  letter-spacing: 5px;
+  }
