@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  font-family: "Hiragino kaku Gothic ProN";
+}
+
+
+.header{
+  background-color: #DEB887;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+.container{
+  color: black;
+  padding: 0px;
+  margin: 0 auto;
+  height: 1000px;
+  background: rgba(255,255,255,0.7);
+}
+.container span{
+  color: #DC143C;
+}
+
+.top-wrapper{
+  height: 500px;
+  padding: 0 auto;
+  background-image:url("https://user-images.githubusercontent.com/69071095/89307550-2f081800-d6ac-11ea-83fe-a59b218b391f.JPG");
+  color: white;
+  background-size: cover;
+  text-align: right;
+
+}
+.top-wrapper h1{
+  height: 150px;
+}
+.top-wrapper h2{
+  font-size: 30px;
+  letter-spacing: 6px;
+
+}
+.top-wrapper h3{
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+.top-wrapper p{
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.parent{
+  height: 250px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.child{
+  float: left;
+  width: 20%;
+  margin: 30px;
+}
+
+
+.footer{
+  background-color: #DEB887;
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding: 0px;
+  }
